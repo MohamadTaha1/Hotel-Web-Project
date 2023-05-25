@@ -1,0 +1,284 @@
+.login{
+    text-align: center;
+    background-color: goldenrod;
+    width: 75%;
+    justify-content: center;
+    display: flex;
+    
+    
+    
+}
+
+.backlogin{
+    background-color: #fff;
+    width:50%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding: 10%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+}
+
+.form input {
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 3%;
+    border: 1.5px solid gold;
+    color: darkgoldenrod;
+    font-family: "serif";
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: normal; 
+
+}
+
+body{
+    background-image: url(body15.jpg);
+}
+
+.submit{
+    background-color: palegoldenrod;
+}
+
+.aLogin{
+    text-decoration: underline;
+    color: darkgoldenrod;
+    
+    
+}
+
+/*Contact css */
+
+.contact{
+    background-color: #fff;
+    width:50%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    padding: 10%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.contactBackground{
+    text-align: center;
+    background-color: goldenrod;
+    width: 75%;
+    justify-content: center;
+    display: flex;
+}
+
+.contactForm .contactMessage{
+
+    outline: none;
+    display: block;
+    width: 100%;
+    height: 200px;
+    margin: 0 0 20px;
+    padding: 3%;
+    border: 1.5px solid gold;
+    color: darkgoldenrod;
+    font-family: "serif";
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: normal; 
+}
+
+.contactForm{
+
+    display: flex;
+    flex-direction: column;
+        
+    
+}
+.contactForm input{
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 3%;
+    border: 1.5px solid gold;
+    color: darkgoldenrod;
+    font-family: "serif";
+    box-sizing: border-box;
+    font-size: large;
+    font-weight: normal; 
+
+}
+
+/*FAQ */
+
+.faq{
+    display: flex;
+    flex-direction: column;
+    background-color: palegoldenrod;
+    width: 80%;
+    margin:auto ;
+    margin-top: 2ex;
+    margin-bottom: 2ex;
+}
+
+.faq h1{
+    color: goldenrod;
+    margin: auto;
+    padding: 1ex;
+}
+
+.faqtab{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.question{
+    padding: 2ex;
+    background-color: palegoldenrod;
+    color: goldenrod;
+}
+
+.answer {
+    padding: 2ex;
+    background-color: white;
+    color: darkgoldenrod;
+    display: none;
+    overflow: hidden;
+}
+
+/* BOOK NOW CSS */
+
+.BookForm{
+    text-align: center;
+    margin: auto;
+    background-color: palegoldenrod;
+    width: 50%;
+    margin-bottom: 2ex;
+    margin-top: 2ex;
+    padding: 5ex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input{
+    font-size: x-large;
+    color: darkgoldenrod;
+    margin-bottom: 1ex;
+    margin-top: 1ex;
+    margin: auto;
+    
+}
+
+.textInput{
+    border: 2px solid darkgoldenrod;
+    outline: 2px solid goldenrod;
+    margin: 2ex;
+    padding: 1.5ex;
+}
+
+.phoneNb{
+    width: 78%;
+}
+
+
+.view{
+    background-color: palegoldenrod;
+    border: 3px double black;
+    text-align: center;
+    padding-bottom: 1ex;
+    padding-top: 1ex;
+    padding-right: 2ex;
+    padding-left: 2ex;
+    color: white;
+    background-color: black;
+    outline: 3px solid goldenrod;
+    margin-top: 3ex;
+    font-size: 13pt;
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 0px){
+
+    .contact{
+        background-color: #fff;
+        width:60%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    }
+    
+    .contactBackground{
+        text-align: center;
+        background-color: goldenrod;
+        width: 80%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .login{
+        text-align: center;
+        background-color: goldenrod;
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        
+        
+        
+    }
+
+    .backlogin{
+        background-color: #fff;
+        width:60%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+    
+    }
+
+}
+
+/* for items under the navbar like crown*/
+@media screen and (max-width: 800px) and (min-width: 0px){
+
+    .nav-items{
+     
+     padding-bottom: 10%;
+     
+    }
+    .crownH1{
+         font-size:xx-large;
+    }
+ }
+
+
+ /* Foe errors in log in */
+
+ .errors{
+
+    border: 2px solid goldenrod;
+    text-align: center;
+    font-weight: 900;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2.5ex;
+    background-color: palegoldenrod;
+    color: darkred;
+    
+
+ }
+
+
+
+
+
+
+
+
+

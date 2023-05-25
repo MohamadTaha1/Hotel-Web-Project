@@ -1,0 +1,475 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-image: url(body15.jpg);
+    z-index: 0;
+    
+}
+
+
+.navul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    position:fixed;
+    z-index: 1;    
+   
+}
+
+.back-gold {
+  background: #b38600;
+  opacity: .7;
+}
+
+.navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(backRoom.jpg);
+    height: 650px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+    
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.navbar-list{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 2%;
+    padding-top: 2%;
+}
+
+.navbar-list a{
+    color: white;
+    font-size:x-large;
+    font-weight: 900;
+}
+
+.navbar-list a:hover{
+      color: saddlebrown;
+}
+
+
+.li-icon{
+    display: inline-flex; 
+    list-style-type: none;
+    margin: 2%;
+    padding-top: 2%;
+    color : white;
+}
+
+.icon{
+    color: white;
+    display: none;
+}
+
+/*                  */
+
+.logoImg{
+    margin-top: 22.5%;
+    margin-bottom: 0;
+    padding: 0; 
+    
+}
+
+.crownH1{
+    text-align: center; 
+    color: palegoldenrod; 
+    font-size: xxx-large;
+    
+}
+
+.mainImg{
+   
+    width: 100%;
+}
+
+
+
+.content a{
+    background-color: goldenrod;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+    text-align: center;
+    color: black;
+}
+
+.content{
+    text-align: center;
+    margin-top: 2ex;
+}
+.content a:hover{
+    background-color: palegoldenrod;
+    color: black;
+}
+
+
+/* DropDown */
+.none {
+    position: relative;
+}
+
+.none ul{
+    display: none;
+}
+
+.none:hover ul{
+    display: list-item;
+}
+
+.navbar-list-dropDown{
+    display: list-item;
+    list-style-type: none;
+    text-align: center; 
+    padding-top: 3.4ex; 
+    padding-bottom: 1ex; 
+    margin-top: 0ex; 
+    position: absolute; 
+    background-color: darkgoldenrod; 
+    width: 150%;
+   
+    
+}
+
+
+.navbar-list-dropDown li a{
+    font-size: large;
+    font-weight: 900;  
+    color: white; /*new */
+}
+
+.navbar-list-dropDown li{
+    margin-bottom: 1ex;
+    margin-top: 1ex;
+    padding-top: .5ex;
+    border-top: .3ex solid saddlebrown; 
+
+    
+}
+
+
+
+
+
+
+
+
+
+/* body css*/
+
+.section {
+    display: flex; justify-content: space-around;
+    background-color: palegoldenrod;
+    padding: 2ex;
+    margin-bottom: 5ex;
+    margin-top: 5ex;
+}
+
+.RoomParag{
+    background-color: palegoldenrod;
+    font-size: 15pt;
+    line-height: 5ex;
+    width: 30%;
+    text-align: left;
+  /*  box-shadow: 20px 20px goldenrod;*/
+    margin-right: 1ex;
+    color: goldenrod;
+    padding-left: 2ex;
+    font-weight: 550;
+    padding-top: 5.5ex;
+    padding-bottom: 0;
+}
+
+/* slideshow*/
+
+.slideshow{
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+
+.before, .after {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  width: auto;
+  padding: 2ex;
+  color: white;
+  font-weight: bold;
+  background-color: goldenrod;
+  border-radius: 0 1ex 1ex 0;
+  
+}
+
+
+.after {
+  right: 0px; 
+  border-radius: 1ex 0 0 1ex;
+}
+
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* titles */
+
+.FeatureTitle{
+    font-size: 18pt;
+    color: darkgoldenrod;
+    text-decoration: underline;
+    font-family:Garamond, serif;
+}
+
+.RoomTitle{
+    font-size: 25pt;
+    color: darkgoldenrod;
+    font-weight: 700;
+    padding: 1ex;
+    font-family:Garamond, serif;
+}
+
+
+.icon{
+    color: darkgoldenrod;
+}
+
+
+
+.viewButtons{
+    background-color: palegoldenrod;
+    border: 3px double black;
+    text-align: center;
+    padding-bottom: 1ex;
+    padding-top: 1ex;
+    padding-right: 2ex;
+    padding-left: 2ex;
+    color: white;
+    background-color: black;
+    outline: 3px solid goldenrod;
+}
+
+/* footer css */
+
+footer{
+    background-color: goldenrod;
+    margin: 0;
+}
+
+.hfoot{
+    text-align: center;
+    color: palegoldenrod;
+}
+
+.footul{
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    color: darkred;
+    width: 70%;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  
+    
+    
+    
+}
+
+.ul-li-foot{
+    margin: 5ex;
+    font-size: x-large;
+    font-weight: 900;
+
+    
+}
+
+.axli {
+
+    text-decoration: none;
+    margin: 2ex;
+    font-size: large;
+    font-weight: normal;
+    color: palegoldenrod;
+}
+
+li {
+    list-style-type: none;
+}
+
+.axli:hover{
+    color: chocolate;
+}
+
+
+.socials{
+    display: inline-flex;
+    margin: 0;
+   
+}
+
+.liSocial{
+    margin: 2ex;
+    font-size: x-large;
+    color: darkred;
+    margin-top: 0;
+    margin-bottom: 2ex;
+    
+}
+
+.liSocial a{
+    color: darkred;
+}
+
+.copy{
+    color: darkred;
+    font-size: large;
+    padding: 1ex;
+    
+}
+
+.divider{
+    display: flex; 
+    justify-content: space-around;
+     background-color: palegoldenrod; 
+     padding: 2ex; margin-bottom: 5ex;
+      margin-top: 5ex;
+
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 0px){
+    
+    .section {
+        display: flex; 
+        justify-content: space-around;
+        flex-direction: column;
+        background-color: palegoldenrod;
+        padding: 2ex;
+        margin-bottom: 5ex;
+        margin-top: 5ex;
+    }
+   
+ 
+}
+ 
+
+
+
+@media screen and (max-width: 700px) and (min-width: 0px){
+
+    .navul.responsive {
+        position: absolute;
+        padding: 0%;
+        
+        }
+        .navul.responsive a.icon {
+        padding: 5% 5% 0% 0%;
+        position: absolute;
+         right: 0;
+         top: 0;
+         }
+         .navul.responsive .navbar-list {
+            margin-top: 50%;
+            float: none;
+            display: block;
+            margin: auto;
+            padding: 2.5%;
+        }
+    
+        .fa-fa-sort-desc{
+            display: none;
+        }
+    
+        .none:hover ul{
+            display: none;
+        }
+        .back-gold{
+            opacity: 1;
+        }
+    
+          
+    
+        .navbar-list {display: none}
+        .li-icon{
+            float: right;
+            margin-right: 5%;
+            font-size: x-large;
+        }
+        .icon{
+            display: block;
+            
+            
+        }
+
+
+    
+    .navbar {
+        height: auto;
+    }
+    
+   
+ 
+}
+
+@media screen and (max-width: 850px) and (min-width: 700px){
+
+    .navbar {
+        height: 450px;
+    }
+
+    
+   
+}
+
+
+
+
+@media screen and  (max-width: 1000px) and (min-width: 850px){
+    
+    .navbar {
+        height: 500px;
+    }
+    
+}
+
+@media screen and  (max-width: 1200px) and (min-width: 1000px){
+    .navbar {
+        height: 600px;
+    }
+   
+    
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 0px){
+
+   .nav-items{
+    
+    padding-bottom: 10%;
+    
+   }
+   .crownH1{
+        font-size:xx-large;
+   }
+}
