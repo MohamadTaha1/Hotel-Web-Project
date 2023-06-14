@@ -26,8 +26,8 @@ $result = $collection->find();
     <link rel="stylesheet" href="review.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Review Page</title>
-    <script src="jquery-3.6.0.js "></script>
-    <script src="review.js"></script>
+    <script src="..//js/jquery-3.6.0.js "></script>
+    <script src="../js/review.js"></script>
     
 </head>
 <body>

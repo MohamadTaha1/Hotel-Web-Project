@@ -4,7 +4,7 @@ padding: 0;
 }
 
 body{
-    background-image: url(body15.jpg);
+    background-image: url(../images/body15.jpg);
     z-index: 0;
     
 }
@@ -29,7 +29,7 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(back28.jpg);
+    background-image: url(../images//back28.jpg);
     height: 650px;
     background-size: 100% 100%;
     background-repeat: no-repeat;

@@ -14,7 +14,7 @@ if(isset($_GET['contactSubmit'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css//style.css">
     <title>Home Page</title>
 </head>
 <body>
@@ -36,7 +36,7 @@ if(isset($_GET['contactSubmit'])){
      &ensp; &ensp;All of us are very proud that we are a friendly, family owned and run hotel with a long-standing team and when guests return they know we will make them feel welcome and at home.
    </p>
     
-    <img class="AboutUsimage" src = "back21.jpg">
+    <img class="AboutUsimage" src = "../images/back21.jpg">
       
     
     </div>
@@ -46,7 +46,7 @@ if(isset($_GET['contactSubmit'])){
       
       <div style = "background-color: #f2f2f2;" class = "divider">
        
-        <img src = "back7.jpg"  class="homeRooms">
+        <img src = "../images/back7.jpg"  class="homeRooms">
        
         <p class = "paragStyle"> <span class="titles"> Rooms </span> <br><br> &ensp; &ensp; With 50 luxurious guest rooms with all the amenities expected in a 5-star hotel, fitted in a modern, 1920'2 art-deco inspired style.
 
@@ -78,7 +78,7 @@ if(isset($_GET['contactSubmit'])){
     
     <div class = "RestaurantHomeMobile">
         
-         <img src = "back23.jpg" width="100%" >
+         <img src = "..//images/back23.jpg" width="100%" >
         
         <div class = eatPmobile>
            <span class="titles"> Restaurant </span> <br><br> &ensp; &ensp; The Crown Palace offers the perfect setting for those looking to enjoy a bite to eat and drink in an atmospheric and sophisticated setting, that oozes old school glamour.
@@ -104,14 +104,14 @@ if(isset($_GET['contactSubmit'])){
      
      <div class="grid">
         <div class="container">
-             <img src="images/pool3.jpg" class="image">
+             <img src="../images/pool3.jpg" class="image">
              <div class="over">
                  <div class="text">Pool</div>
              </div>
         </div>
         
         <div class="container">
-             <img src="images/gym2.jpg" class="image">
+             <img src="../images/gym2.jpg" class="image">
              <div class="over">
               <div class="text">Gym</div>
              </div>
@@ -119,14 +119,14 @@ if(isset($_GET['contactSubmit'])){
        
        
             <div class="container">
-                 <img src="images/spa3.jpg" class="image">
+                 <img src="../images/spa3.jpg" class="image">
                  <div class="over">
                      <div class="text">Spa</div>
                  </div>
             </div>
         
             <div class="container">
-                <img src="images/restaurant2.jpg" class="image">
+                <img src="../images/restaurant2.jpg" class="image">
                  <div class="over">
                      <div class="text">Restaurant</div>
                  </div>

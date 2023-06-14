@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="staff.css">
+    <link rel="stylesheet" href="../cs/staff.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
-    <script src="staff.js"></script>
+    <script src="../js/staff.js"></script>
 </head>
 <body>
     <div class="Container">

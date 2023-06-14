@@ -6,10 +6,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="manager.css">
+    <link rel="stylesheet" href="..//css/manager.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Manager</title>
-    <script src="manager.js"></script>
+    <script src="../js//manager.js"></script>
 </head>
 <body>
     <div class="Container">

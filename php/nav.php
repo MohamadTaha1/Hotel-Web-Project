@@ -116,14 +116,10 @@ padding-bottom: 10%;
 }
 
 </style>
-
 <?php
 if ($loggedIn){
 
 ?>
-
-
-
 <script>
 
 function myFunction() {
@@ -154,6 +150,8 @@ function myFunction() {
 }
 
 </script>
+
+
 <nav class="navbar">
        
        <ul class = "navul back-gold" id = "myTopnav">
@@ -204,6 +202,7 @@ function myFunction() {
            <li class="li-icon">
            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                  <i class="fa fa-bars"></i>
+                 
             </a>
            </li>
        </ul>
@@ -211,14 +210,14 @@ function myFunction() {
 
     <div class="nav-items">
     <div style = "text-align: center">
-        <a href = "HomePage.php"><img src="images/logo3-removebg-preview.png" class="logoImg" width="50px" height = "50px"></a>
+        <a href = "HomePage.php"><img src="../images/logo3-removebg-preview.png" class="logoImg" width="50px" height = "50px"></a>
     </div>
    
         <a href = "HomePage.php"><h1 class = "crownH1">  Crown   Palace </h1></a>
    
    
    <div class="content"> 
-     <a href = "Menu.php#MENU"> Order Now </a>
+     <a href = "Book.php#form"> Book Now </a>
    </div>
        </div>
    
@@ -312,14 +311,14 @@ function myFunction() {
        
        <div class="nav-items">
     <div style = "text-align: center">
-        <a href = "HomePage.php"><img src="images/logo3-removebg-preview.png" class="logoImg" width="50px" height = "50px"></a>
+        <a href = "HomePage.php"><img src="../images/logo3-removebg-preview.png" class="logoImg" width="50px" height = "50px"></a>
     </div>
    
         <a href = "HomePage.php"><h1 class = "crownH1">  Crown   Palace </h1></a>
    
    
    <div class="content"> 
-     <a href = "Menu.php#MENU"> Order Now </a>
+     <a href = "Book.php#form"> Book Now </a>
    </div>
        </div>
    

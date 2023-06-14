@@ -14,12 +14,12 @@ include '.\SessionSecurity.php';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="book.css">
-    <link rel="stylesheet" href="Forms.css">
-    <script src='jquery-3.6.0.js'></script>
+    <link rel="stylesheet" href="../css/book.css">
+    <link rel="stylesheet" href="../css/Forms.css">
+    <script src='../js/jquery-3.6.0.js'></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Book Now</title>
-   <script src="book.js"> </script>
+   <script src="../js/book.js"> </script>
 </head>
 <body>
    
@@ -82,7 +82,7 @@ include '.\SessionSecurity.php';
     <div class = "displayRooms" id = "show">
       
        <div class="room">
-           <div> <img src = "./images/king4.jpg" width="500px" height="250px"> </div>
+           <div> <img src = "../images/king4.jpg" width="500px" height="250px"> </div>
            <div style=" text-align: center; display: flex; flex-direction:column;">
               
                <div class = "RoomTitle" id = "roomName1"> Classic King Room</div>
@@ -104,7 +104,7 @@ include '.\SessionSecurity.php';
        <hr>
        
        <div class="room">
-           <div> <img src = "./images/twin4.jpg" width="500px" height="250px"> </div>
+           <div> <img src = "../images/twin4.jpg" width="500px" height="250px"> </div>
            <div style=" text-align: center; display: flex; flex-direction:column;">
               
                <div class = "RoomTitle" id = "roomName2"> Classic Twin Room</div>
@@ -123,7 +123,7 @@ include '.\SessionSecurity.php';
        <hr>
        
        <div class="room" >
-           <div > <img src = "./images/deluxe5.jpg" width="500px" height="250px" > </div>
+           <div > <img src = "../images/deluxe5.jpg" width="500px" height="250px" > </div>
            <div  style=" text-align: center; display: flex; flex-direction:column;">
                <div class = "RoomTitle" id = "roomName3" > Deluxe Suite</div>
                <div class="pay"> <span style="font-weight: 900;" id = "price3"> 400</span><b>$</b> Per Night</div>
@@ -141,7 +141,7 @@ include '.\SessionSecurity.php';
        <hr>
        
        <div class="room" id = "familyRoom">
-           <div> <img src = "./images/family3.jpg" width="500px" height="250px"> </div>
+           <div> <img src = "../images/family3.jpg" width="500px" height="250px"> </div>
            <div style=" text-align: center; display: flex; flex-direction:column;">
                <div class = "RoomTitle" id = "roomName4"> Family Room</div>
                <div class="pay"> <span style="font-weight: 900;" id = "price4"> 450</span><b> $</b> Per Night</div>

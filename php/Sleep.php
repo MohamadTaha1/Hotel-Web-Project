@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-     <link rel="stylesheet" href="Sleep.css">
+     <link rel="stylesheet" href="../css/Sleep.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Rooms</title>
 </head>
@@ -25,17 +25,17 @@
      <div class="slideshow">
 
      <div class="slide fade">
-  <img src="images/king4.jpg" style="width:100%">
+  <img src="../images/king4.jpg" style="width:100%">
 </div>
 
   <div class="slide fade">
   
-      <img src="images/bathroom3.jpg" style="width:100%">
+      <img src="../images/bathroom3.jpg" style="width:100%">
   </div>
 
 <div class="slide fade">
  
-  <img src="images/saboon1.jpg" style="width:100%">
+  <img src="../images/saboon1.jpg" style="width:100%">
 </div>
 
   <a class="before" onclick="addSlides(-1)">&#10094;</a>
@@ -103,17 +103,17 @@ function show (a) {
      <div class="slideshow">
 
      <div class="slide1 fade">
-  <img src="images/twin4.jpg" style="width:100%">
+  <img src="../images/twin4.jpg" style="width:100%">
 </div>
 
   <div class="slide1 fade">
   
-      <img src="images/bathTwin.jpg" style="width:100%">
+      <img src="../images/bathTwin.jpg" style="width:100%">
   </div>
 
 <div class="slide1 fade">
  
-  <img src="images/tea4.jpg" style="width:100%">
+  <img src="../images/tea4.jpg" style="width:100%">
 </div>
 
   <a class="before" onclick="addSlides1(-1)">&#10094;</a>
@@ -173,17 +173,17 @@ function show1 (a) {
      <div class="slideshow">
 
      <div class="slide2 fade">
-  <img src="images/family3.jpg" style="width:100%">
+  <img src="../images/family3.jpg" style="width:100%">
 </div>
 
   <div class="slide2 fade">
   
-      <img src="images/bunk.jpg" style="width:100%">
+      <img src="../images/bunk.jpg" style="width:100%">
   </div>
 
 <div class="slide2 fade">
  
-  <img src="images/salon1.jpg" style="width:100%">
+  <img src="../images/salon1.jpg" style="width:100%">
 </div>
 
   <a class="before" onclick="addSlides2(-1)">&#10094;</a>
@@ -248,17 +248,17 @@ function show2 (a) {
      <div class="slideshow">
 
      <div class="slide3 fade">
-  <img src="images/deluxe5.jpg" style="width:100%">
+  <img src="../images/deluxe5.jpg" style="width:100%">
 </div>
 
   <div class="slide3 fade">
   
-      <img src="images/deluxe7.jpg" style="width:100%">
+      <img src="../images/deluxe7.jpg" style="width:100%">
   </div>
 
 <div class="slide3 fade">
  
-  <img src="images/deluxeBath.jpg" style="width:100%">
+  <img src="../images/deluxeBath.jpg" style="width:100%">
 </div>
 
   <a class="before" onclick="addSlides3(-1)">&#10094;</a>

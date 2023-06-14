@@ -1,161 +1,78 @@
-/* body */
-.displayRooms{
-    background-color: palegoldenrod;
-    display:flex;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    width: 80%;
-    margin: auto;
+* {
+    margin: 0;
     padding: 0;
-    padding-top: 2ex;
-    margin-bottom: 2ex;
-    
 }
 
-.section1{
-    display: flex;
-     justify-content: space-between;
+
+
+.container {
+  background-color: palegoldenrod;
+  width:70%;
+  margin: auto;
+  margin-bottom: 3ex;
+  margin-top: 3ex;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  
+  
 }
 
-.section1-1{
-    display: flex; flex-direction: column; margin: auto;
+input{
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
-.section1-2{
-    display: flex; flex-direction: column; margin: auto;
+label {
+  margin-bottom: 10px;
+  display: block;
+  color: darkgoldenrod;
+  font-weight: 800;
 }
 
-.room{
-   display: inline-flex;
-   margin: 2ex;
-    
-    
+.icons {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
 }
 
-.RoomTitle{
-    font-size: 20pt;
-    color: darkgoldenrod;
-    font-weight: 700;
-    padding: 2ex;
-    font-family:Garamond, serif;
-    margin-left: 7ex;
-    width:200px;
+h3{
+  color: goldenrod;
+  font-size: 20pt;
+  font-weight: 800;
+  margin-bottom: 2ex;
 }
 
-.pay{
-     font-size: 20pt;
-     color: darkgoldenrod;
-    font-weight: 500;
-    padding: 1ex;
-    font-family:Garamond, serif;
+.divv{
+    width: 50%;
     text-align: center;
-    margin-left: 7ex; 
+    padding: 2ex;
+    
 }
 
 .View{
     background-color: palegoldenrod;
     border: 3px double black;
     text-align: center;
-    padding: 0.5ex;
+    padding: 0;
     color: white;
     background-color: black;
     outline: 3px solid goldenrod;
-    font-size: 12pt;
-    width: 50%;
+    
+    font-size: 10pt;
+    width: 35%;
 }
 
 
-.button{
-    margin-left: 12ex;
-    text-align: center;
-    padding: 1ex;
-}
 
-.confirmBtn{
-    text-align: center;
-    padding: 1ex;
-    margin: 3ex;
-}
-
-
-.checkbox{
-    padding: 2ex;
-    font-size: x-large;
-    width: 2ex;
-    height: 2ex;
   
-}
+/* navbar */
 
-
-input[type = checkbox]{
-    accent-color: goldenrod;
-}
-
-.button input[type = number]{
-    color: darkgoldenrod;
-    border: 2px solid goldenrod;
-    width: 6ex;
-    height: 3ex;
-    text-align: center;
-    border: 2px solid darkgoldenrod;
-    outline: 2px solid goldenrod;
-    
-}
-
-
-hr{ border: 1px solid darkgoldenrod;}
-
-
-.Cart{
-    background-color: palegoldenrod;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 25%;
-    margin: auto;
-    padding: 2ex;
-    padding-left: 5ex;
-    padding-right: 5ex;
-    margin-bottom: 2ex;
-    
-}
-
-.bookElements{
-    width: 50%;
-    font-weight: 900;
-    font-size: large;
-}
-
-.bookData{
-    width: 50%;
-    text-align: end;
-    font-size: large;
-}
-
-p{
-    margin-bottom: 1ex;
-    margin-top: 1ex;
-    
-}
-
-.input2{
-    font-size: 18pt;
-    color: darkgoldenrod;
-    margin-bottom: 1ex;
-    margin-top: 1ex;
-    margin: auto;
-    font-weight: 900;
-    margin-left: 25%;
-}
-
-
-/* nav */
-*{
-margin: 0;
-padding: 0;
-}
 
 body{
-    background-image: url(body15.jpg);
+    background-image: url(../images/body15.jpg);
     z-index: 0;
     
 }
@@ -180,9 +97,9 @@ body{
     width: 100%;
     margin: 0;
     padding: 0;
-    background-image: url(back16.jpg);
+    background-image: url(../images//back16.jpg);
     height: 650px;
-    background-size: 100% 100%;
+    background-size: cover;
     background-repeat: no-repeat;
    
     
@@ -193,8 +110,9 @@ a{
     text-decoration: none;
 }
 
+
 .navbar-list{
-    display: inline-flex;
+    display: inline-flex; 
     list-style-type: none;
     margin: 2%;
     padding-top: 2%;
@@ -256,6 +174,10 @@ a{
 
 /* DropDown */
 
+.none {
+    position: relative;
+}
+
 .none ul{
     display: none;
 }
@@ -294,12 +216,7 @@ a{
     
 }
 
-.none {
-    position: relative;
-}
-
-
-/* footer css */
+/* footer */
 
 footer{
     background-color: goldenrod;
@@ -380,8 +297,9 @@ li {
 }
 
 
+
 @media screen and (max-width: 700px) and (min-width: 0px){
-    
+    .navul {display: none}
     .navbar {
         height: auto;
     }
@@ -432,20 +350,3 @@ li {
    }
 }
 
-/* for section1 of book form*/
-@media screen and (max-width: 1000px) and (min-width: 0px){
-.section1{
-    display: flex;
-     
-     flex-direction: column;
-}
-
-.section1-1{
-    display: flex; flex-direction: column; margin: auto;
-}
-
-.section1-2{
-    display: flex; flex-direction: column; margin: auto;
-}
-
-}
